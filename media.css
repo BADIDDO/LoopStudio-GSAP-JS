@@ -1,0 +1,96 @@
+@media (max-width : 887px) {
+    header{
+        height: 50vh;
+    }
+    .container {
+        width: 90%;
+    } 
+    nav {
+        padding: 10px;
+    }
+    nav .icon {
+        display: block;
+    }
+    nav ul {
+        position: absolute;
+        top: 60px;
+        background-color: rgba(255, 255, 255, 0.472);
+        width: 100%;
+        text-align: center;
+        z-index: 6;
+        border-radius: 8px;
+        transform: translateX(-120%);
+        transition: .4s ease-in-out;
+    }
+    nav ul.active {
+        transform: translateX(0%);
+    }
+    nav ul li {
+        display: flex;
+        flex-direction: column;
+        line-height: 2;
+
+    }
+    nav ul li a {
+        margin: 0 ;
+        color: black;
+        font-weight: 500;
+    }
+    nav ul li a:hover {
+        border-bottom: none;
+        font-weight: 700;
+    }
+    .header-intro {
+        padding: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .header-intro h1 {
+        font-size: 40px;
+    }
+    .about {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    .about-info {
+       flex-direction: column;
+    }
+    .about-infoo {
+        position: relative;
+        width: 100%;
+        padding: 10px;
+    }
+    .about-infoo h1 {
+        font-size: 40px;
+    padding-bottom: 20px;
+    }
+    .one img:hover {
+        width: 100%;
+        transform: none;
+    }
+    .products-header h1 {
+        font-size: 30px;
+    }
+    .products-header button {
+        padding: 10px;
+        font-size: 10px;
+        }
+        .content {
+flex-direction: column;
+        }
+        .links ul {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding-bottom: 15px;
+        }
+        .links ul li a{
+            margin-right:0px;
+            line-height: 2;
+        }
+        .icons {
+            text-align: center;
+        }
+}
